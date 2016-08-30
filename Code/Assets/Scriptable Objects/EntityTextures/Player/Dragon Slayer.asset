@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7492835ed795eb49a253ddda09c6d03, type: 3}
+  m_Name: Dragon Slayer
+  m_EditorClassIdentifier: 
+  textures:
+  - {fileID: 2800000, guid: 4568dfcf7dcf01f4f82215251cb36580, type: 3}
+  - {fileID: 2800000, guid: 41dbe807611357c4e8856840a678de45, type: 3}
+  - {fileID: 2800000, guid: a051175b0dc038645b7c9f8abb53e622, type: 3}
+  - {fileID: 2800000, guid: 14e1bbd076335414d8a65aba69233e16, type: 3}
+  - {fileID: 2800000, guid: 9528a108d72aa1e4db75c3f67e85b599, type: 3}
+  - {fileID: 2800000, guid: 1050694464ef9234f9c850c44d39282f, type: 3}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7492835ed795eb49a253ddda09c6d03, type: 3}
+  m_Name: 3 GoE
+  m_EditorClassIdentifier: 
+  textures:
+  - {fileID: 2800000, guid: 5035b61a24f29164f98efb1b974e4ca1, type: 3}
+  - {fileID: 2800000, guid: 5035b61a24f29164f98efb1b974e4ca1, type: 3}
+  - {fileID: 2800000, guid: c2178c969ed1f454a8f95814de504cbc, type: 3}
+  - {fileID: 2800000, guid: e4f577becc2e24a46a9a9fc35d3f5e28, type: 3}
+  - {fileID: 2800000, guid: 95535e6ac51abbd49897e8c002838e5c, type: 3}
+  - {fileID: 2800000, guid: ed1493f47b717764da3bec3ae15307ec, type: 3}

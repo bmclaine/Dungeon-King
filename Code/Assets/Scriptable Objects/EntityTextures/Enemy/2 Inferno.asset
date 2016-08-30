@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7492835ed795eb49a253ddda09c6d03, type: 3}
+  m_Name: 2 Inferno
+  m_EditorClassIdentifier: 
+  textures:
+  - {fileID: 2800000, guid: f59ef935b45d07b46af6efc22674bf3d, type: 3}
+  - {fileID: 2800000, guid: f59ef935b45d07b46af6efc22674bf3d, type: 3}
+  - {fileID: 2800000, guid: c16a1401a52088149b5621edc5b066ac, type: 3}
+  - {fileID: 2800000, guid: 4fb48eaad7837444b876a54010cb8d1f, type: 3}
+  - {fileID: 2800000, guid: 8d3aea672b87f2b4a860bdcd9660e471, type: 3}
+  - {fileID: 2800000, guid: ad482eee77527934d8b56dba53b7ade4, type: 3}

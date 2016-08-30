@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c90985c8ca52bf3428264a9f8d3d9085
+timeCreated: 1441144589
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - buttonConfirm: {fileID: 8300000, guid: c9591d11f86a8de429e89eabf9a0eb40, type: 3}
+  - buttonChange: {instanceID: 0}
+  - backgroundMusic: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

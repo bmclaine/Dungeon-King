@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &114490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 489536}
+  - 114: {fileID: 11403138}
+  m_Layer: 0
+  m_Name: InventoryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &489536
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114490}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.22750831, y: -6.8135643, z: -18.9915867}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11403138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eea794fc49627d40b09ffbf85863ab6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potions: []
+  weapons:
+  - name: NormalSword
+    info: 
+    id: 1
+    amount: 1
+    icon: {fileID: 21300000, guid: 1ba8f21c6027a2e4cba1098813b3fa0c, type: 3}
+    itemType: 2
+    damage:
+      physical: 10
+      elemental: 5
+      critical: 0
+    effect: {fileID: 0}
+    element: 0
+    weaponObject: {fileID: 178178, guid: 160535b15f1e12943ba557710eee2102, type: 2}
+  currentWeaponObj: {fileID: 0}
+  weaponTransform: {fileID: 0}
+  weaponCycle: {fileID: 8300000, guid: 4453aceff2e52e04d8ed865a10975dc8, type: 3}
+  potionCycle: {fileID: 8300000, guid: bd5c8ef6cafefcc49ad2633afebfc4a1, type: 3}
+  potionDrink: {fileID: 8300000, guid: b2e2a4d84e5d10f4dac71224c661359d, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[0].weaponObject
+      value: 
+      objectReference: {fileID: 111632, guid: 04c767f178990f246a557022cc6df369, type: 2}
+    - target: {fileID: 0}
+      propertyPath: potionDrink
+      value: 
+      objectReference: {fileID: 8300000, guid: b2e2a4d84e5d10f4dac71224c661359d, type: 3}
+    - target: {fileID: 0}
+      propertyPath: potionCycle
+      value: 
+      objectReference: {fileID: 8300000, guid: bd5c8ef6cafefcc49ad2633afebfc4a1, type: 3}
+    - target: {fileID: 0}
+      propertyPath: weaponCycle
+      value: 
+      objectReference: {fileID: 8300000, guid: 4453aceff2e52e04d8ed865a10975dc8, type: 3}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[0].effect
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[0].damage.physical
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[0].damage.elemental
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 114490}
+  m_IsPrefabParent: 1

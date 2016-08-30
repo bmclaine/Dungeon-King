@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: aadf86479e0887c4baf0fe2e10944dd1
+timeCreated: 1441811662
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: chest
+    100004: controller
+    100006: foot_b_L
+    100008: foot_b_R
+    100010: foot_f_L
+    100012: foot_f_R
+    100014: head
+    100016: hips
+    100018: jaw
+    100020: //RootNode
+    100022: legenddragon-fire
+    100024: neck
+    100026: shin_b_L
+    100028: shin_b_R
+    100030: shin_f_L
+    100032: shin_f_R
+    100034: spine
+    100036: tail1
+    100038: tail2
+    100040: tail3
+    100042: tail4
+    100044: tail5
+    100046: tail6
+    100048: thigh_b_L
+    100050: thigh_b_R
+    100052: thigh_f_L
+    100054: thigh_f_R
+    100056: thumb_L
+    100058: thumb_R
+    100060: wing1_L
+    100062: wing1_R
+    100064: wing2_L
+    100066: wing2_R
+    100068: wing3_L
+    100070: wing3_R
+    400000: Armature
+    400002: chest
+    400004: controller
+    400006: foot_b_L
+    400008: foot_b_R
+    400010: foot_f_L
+    400012: foot_f_R
+    400014: head
+    400016: hips
+    400018: jaw
+    400020: //RootNode
+    400022: legenddragon-fire
+    400024: neck
+    400026: shin_b_L
+    400028: shin_b_R
+    400030: shin_f_L
+    400032: shin_f_R
+    400034: spine
+    400036: tail1
+    400038: tail2
+    400040: tail3
+    400042: tail4
+    400044: tail5
+    400046: tail6
+    400048: thigh_b_L
+    400050: thigh_b_R
+    400052: thigh_f_L
+    400054: thigh_f_R
+    400056: thumb_L
+    400058: thumb_R
+    400060: wing1_L
+    400062: wing1_R
+    400064: wing2_L
+    400066: wing2_R
+    400068: wing3_L
+    400070: wing3_R
+    4300000: legenddragon-fire
+    7400000: Default Take
+    7400002: LDragon_Damage
+    7400004: LDragon_Death
+    7400006: LDragon_Flame_Tornado
+    7400008: LDragon_Grand_Fireball
+    7400010: LDragon_Idle
+    7400012: LDragon_Pursuit
+    7400014: LDragon_Shed_Skin
+    9500000: //RootNode
+    13700000: legenddragon-fire
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L/foot_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L/foot_f_L/thumb_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R/foot_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R/foot_f_R/thumb_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L/wing2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L/wing2_L/wing3_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R/wing2_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R/wing2_R/wing3_R
+        weight: 1
+      - path: Armature/controller/hips/tail1
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L/shin_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L/shin_b_L/foot_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R/shin_b_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R/shin_b_R/foot_b_R
+        weight: 1
+      - path: legenddragon-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LDragon_Damage
+      takeName: LDragon_Damage
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L/foot_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L/foot_f_L/thumb_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R/foot_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R/foot_f_R/thumb_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L/wing2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L/wing2_L/wing3_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R/wing2_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R/wing2_R/wing3_R
+        weight: 1
+      - path: Armature/controller/hips/tail1
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L/shin_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L/shin_b_L/foot_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R/shin_b_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R/shin_b_R/foot_b_R
+        weight: 1
+      - path: legenddragon-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LDragon_Death
+      takeName: LDragon_Death
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L/foot_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L/foot_f_L/thumb_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R/foot_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R/foot_f_R/thumb_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L/wing2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L/wing2_L/wing3_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R/wing2_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R/wing2_R/wing3_R
+        weight: 1
+      - path: Armature/controller/hips/tail1
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L/shin_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L/shin_b_L/foot_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R/shin_b_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R/shin_b_R/foot_b_R
+        weight: 1
+      - path: legenddragon-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LDragon_Flame_Tornado
+      takeName: LDragon_Flame_Tornado
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L/foot_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L/foot_f_L/thumb_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R/foot_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R/foot_f_R/thumb_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L/wing2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L/wing2_L/wing3_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R/wing2_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R/wing2_R/wing3_R
+        weight: 1
+      - path: Armature/controller/hips/tail1
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L/shin_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L/shin_b_L/foot_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R/shin_b_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R/shin_b_R/foot_b_R
+        weight: 1
+      - path: legenddragon-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LDragon_Grand_Fireball
+      takeName: LDragon_Grand_Fireball
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L/foot_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L/foot_f_L/thumb_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R/foot_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R/foot_f_R/thumb_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L/wing2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L/wing2_L/wing3_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R/wing2_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R/wing2_R/wing3_R
+        weight: 1
+      - path: Armature/controller/hips/tail1
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L/shin_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L/shin_b_L/foot_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R/shin_b_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R/shin_b_R/foot_b_R
+        weight: 1
+      - path: legenddragon-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LDragon_Idle
+      takeName: LDragon_Idle
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L/foot_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L/foot_f_L/thumb_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R/foot_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R/foot_f_R/thumb_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L/wing2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L/wing2_L/wing3_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R/wing2_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R/wing2_R/wing3_R
+        weight: 1
+      - path: Armature/controller/hips/tail1
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L/shin_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L/shin_b_L/foot_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R/shin_b_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R/shin_b_R/foot_b_R
+        weight: 1
+      - path: legenddragon-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LDragon_Pursuit
+      takeName: LDragon_Pursuit
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L/foot_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L/foot_f_L/thumb_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R/foot_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R/foot_f_R/thumb_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L/wing2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L/wing2_L/wing3_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R/wing2_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R/wing2_R/wing3_R
+        weight: 1
+      - path: Armature/controller/hips/tail1
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L/shin_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L/shin_b_L/foot_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R/shin_b_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R/shin_b_R/foot_b_R
+        weight: 1
+      - path: legenddragon-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: LDragon_Shed_Skin
+      takeName: LDragon_Shed_Skin
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L/foot_f_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_L/shin_f_L/foot_f_L/thumb_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R/foot_f_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/thigh_f_R/shin_f_R/foot_f_R/thumb_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L/wing2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_L/wing2_L/wing3_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R/wing2_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/wing1_R/wing2_R/wing3_R
+        weight: 1
+      - path: Armature/controller/hips/tail1
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Armature/controller/hips/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L/shin_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_L/shin_b_L/foot_b_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R/shin_b_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_b_R/shin_b_R/foot_b_R
+        weight: 1
+      - path: legenddragon-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .600000024
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: controller
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

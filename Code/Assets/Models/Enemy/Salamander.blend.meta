@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: bd0cfcdeee6bb0541beae4ccdc01afd5
+timeCreated: 1441923916
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Controller
+    100004: head
+    100006: hips
+    100008: jaw
+    100010: leg_b_L
+    100012: leg_b_R
+    100014: leg_f_L
+    100016: leg_f_R
+    100018: neck
+    100020: //RootNode
+    100022: salamander_hr-dark
+    100024: shin_b_L
+    100026: shin_b_R
+    100028: shin_f_L
+    100030: shin_f_R
+    100032: spine
+    100034: tail1
+    100036: tail2
+    100038: tail3
+    400000: Armature
+    400002: Controller
+    400004: head
+    400006: hips
+    400008: jaw
+    400010: leg_b_L
+    400012: leg_b_R
+    400014: leg_f_L
+    400016: leg_f_R
+    400018: neck
+    400020: //RootNode
+    400022: salamander_hr-dark
+    400024: shin_b_L
+    400026: shin_b_R
+    400028: shin_f_L
+    400030: shin_f_R
+    400032: spine
+    400034: tail1
+    400036: tail2
+    400038: tail3
+    4300000: salamander_hr-dark
+    7400000: Default Take
+    7400002: Salamander_Damage
+    7400004: Salamander_Death
+    7400006: Salamander_Idle
+    7400008: Salamander_Knockback
+    7400010: Salamander_Launch
+    7400012: Salamander_Melee
+    7400014: Salamander_Projectile
+    7400016: Salamander_Pursuit
+    9500000: //RootNode
+    13700000: salamander_hr-dark
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L/shin_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R/shin_b_R
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L/shin_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R/shin_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head/jaw
+        weight: 1
+      - path: Armature/Controller/hips/tail1
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: salamander_hr-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Salamander_Damage
+      takeName: Salamander_Damage
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L/shin_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R/shin_b_R
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L/shin_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R/shin_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head/jaw
+        weight: 1
+      - path: Armature/Controller/hips/tail1
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: salamander_hr-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Salamander_Death
+      takeName: Salamander_Death
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L/shin_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R/shin_b_R
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L/shin_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R/shin_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head/jaw
+        weight: 1
+      - path: Armature/Controller/hips/tail1
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: salamander_hr-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Salamander_Idle
+      takeName: Salamander_Idle
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L/shin_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R/shin_b_R
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L/shin_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R/shin_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head/jaw
+        weight: 1
+      - path: Armature/Controller/hips/tail1
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: salamander_hr-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Salamander_Knockback
+      takeName: Salamander_Knockback
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L/shin_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R/shin_b_R
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L/shin_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R/shin_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head/jaw
+        weight: 1
+      - path: Armature/Controller/hips/tail1
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: salamander_hr-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Salamander_Launch
+      takeName: Salamander_Launch
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L/shin_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R/shin_b_R
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L/shin_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R/shin_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head/jaw
+        weight: 1
+      - path: Armature/Controller/hips/tail1
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: salamander_hr-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Salamander_Melee
+      takeName: Salamander_Melee
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L/shin_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R/shin_b_R
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L/shin_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R/shin_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head/jaw
+        weight: 1
+      - path: Armature/Controller/hips/tail1
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: salamander_hr-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Salamander_Projectile
+      takeName: Salamander_Projectile
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L/shin_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R/shin_b_R
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L/shin_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R/shin_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head/jaw
+        weight: 1
+      - path: Armature/Controller/hips/tail1
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: salamander_hr-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Salamander_Pursuit
+      takeName: Salamander_Pursuit
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_L/shin_b_L
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R
+        weight: 1
+      - path: Armature/Controller/hips/leg_b_R/shin_b_R
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_L/shin_f_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/leg_f_R/shin_f_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head/jaw
+        weight: 1
+      - path: Armature/Controller/hips/tail1
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2
+        weight: 1
+      - path: Armature/Controller/hips/tail1/tail2/tail3
+        weight: 1
+      - path: salamander_hr-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .800000012
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Controller
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

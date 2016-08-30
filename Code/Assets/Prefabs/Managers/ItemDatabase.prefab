@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &170972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 450768}
+  - 114: {fileID: 11448368}
+  m_Layer: 0
+  m_Name: ItemDatabase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &450768
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170972}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 103.440506, y: 419.065948, z: 89.2997437}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11448368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e66d52209ea44514c92b5a42b72b0296, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potions:
+  - name: Health Potion
+    info: 
+    id: 0
+    amount: 1
+    icon: {fileID: 21300000, guid: 5d6e4760622f57e4bb2c3de6151d0863, type: 3}
+    itemType: 3
+    effect: {fileID: 11400000, guid: f2448c168a808934780fd55a9c7d9120, type: 2}
+  - name: Mana Potion
+    info: 
+    id: 1
+    amount: 1
+    icon: {fileID: 21300000, guid: 94da6006a0c03824a983428cbe40f96b, type: 3}
+    itemType: 3
+    effect: {fileID: 11400000, guid: 1003abd8d440b484499682b58d77c95b, type: 2}
+  - name: Speed Potion
+    info: 
+    id: 2
+    amount: 1
+    icon: {fileID: 21300000, guid: 496f0c7123bb727458c468bc4856a184, type: 3}
+    itemType: 3
+    effect: {fileID: 11400000, guid: f8a610ee5e3d61e469fcf07e1957137e, type: 2}
+  - name: Might Potion
+    info: 
+    id: 3
+    amount: 1
+    icon: {fileID: 21300000, guid: 9d0e5158c0087b645ad0702b106e2437, type: 3}
+    itemType: 3
+    effect: {fileID: 11400000, guid: 3fd5c217038a39f43b4378bf76c9faef, type: 2}
+  - name: Toughness Potion
+    info: 
+    id: 4
+    amount: 1
+    icon: {fileID: 21300000, guid: eff3b00a34b14bf4485056a254d08a01, type: 3}
+    itemType: 3
+    effect: {fileID: 11400000, guid: d97e6c5124656ac41b5d6f055cf7da4b, type: 2}
+  weapons:
+  - name: Normal Sword
+    info: 
+    id: 0
+    amount: 1
+    icon: {fileID: 21300000, guid: 1ba8f21c6027a2e4cba1098813b3fa0c, type: 3}
+    itemType: 2
+    damage:
+      physical: 0
+      elemental: 0
+      critical: 0
+    effect: {fileID: 0}
+    element: 0
+    weaponObject: {fileID: 178178, guid: 160535b15f1e12943ba557710eee2102, type: 2}
+  - name: Ignis Blade
+    info: 
+    id: 1
+    amount: 1
+    icon: {fileID: 21300000, guid: b79a07bee184b7f4ca1adc53d4e23ffa, type: 3}
+    itemType: 2
+    damage:
+      physical: 0
+      elemental: 0
+      critical: 0
+    effect: {fileID: 0}
+    element: 0
+    weaponObject: {fileID: 152678, guid: 342ed92d52a9f164184bb73e5359a61a, type: 2}
+  - name: Aqua Blade
+    info: 
+    id: 2
+    amount: 1
+    icon: {fileID: 21300000, guid: 65e1e653912402848b1026e90182353f, type: 3}
+    itemType: 2
+    damage:
+      physical: 0
+      elemental: 0
+      critical: 0
+    effect: {fileID: 11400000, guid: 4a1edb0b568d40d4ababcaa837cf7f82, type: 2}
+    element: 0
+    weaponObject: {fileID: 172836, guid: 2a0d0242de569bc4c828488a3c2d7289, type: 2}
+  - name: Ventus Blade
+    info: 
+    id: 3
+    amount: 1
+    icon: {fileID: 21300000, guid: 76cf97304ee98bd45b0bc89bee497051, type: 3}
+    itemType: 2
+    damage:
+      physical: 0
+      elemental: 0
+      critical: 0
+    effect: {fileID: 0}
+    element: 0
+    weaponObject: {fileID: 121122, guid: 9374b655d1f8f1043aa91e26bb924b04, type: 2}
+  - name: Lumen Blade
+    info: 
+    id: 4
+    amount: 1
+    icon: {fileID: 21300000, guid: 690c279bdaefc2d438c29152c026a2b5, type: 3}
+    itemType: 2
+    damage:
+      physical: 0
+      elemental: 0
+      critical: 0
+    effect: {fileID: 0}
+    element: 0
+    weaponObject: {fileID: 111632, guid: 04c767f178990f246a557022cc6df369, type: 2}
+  - name: Tenebris Blade
+    info: 
+    id: 5
+    amount: 1
+    icon: {fileID: 21300000, guid: 70111f2c6782e9546ab2cbe2399d9d62, type: 3}
+    itemType: 2
+    damage:
+      physical: 0
+      elemental: 0
+      critical: 0
+    effect: {fileID: 0}
+    element: 0
+    weaponObject: {fileID: 125052, guid: ceb92e2e51c84d243b74b5ae77ae7a26, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[0].name
+      value: Ignis Blade
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[0].id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[0].amount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[0].icon
+      value: 
+      objectReference: {fileID: 21300000, guid: b79a07bee184b7f4ca1adc53d4e23ffa,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[0].itemType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[1].name
+      value: Aqua Blade
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[1].id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[1].amount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[1].icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 65e1e653912402848b1026e90182353f,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[1].itemType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[2].name
+      value: Ventus Blade
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[2].id
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[2].amount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[2].icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 76cf97304ee98bd45b0bc89bee497051,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[2].itemType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[3].name
+      value: Lumen Blade
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[3].id
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[3].amount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[3].icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 690c279bdaefc2d438c29152c026a2b5,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[3].itemType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[4].name
+      value: Tenebris Blade
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[4].id
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[4].amount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[4].icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 70111f2c6782e9546ab2cbe2399d9d62,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[4].itemType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[0].weaponObject
+      value: 
+      objectReference: {fileID: 178178, guid: 160535b15f1e12943ba557710eee2102, type: 2}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[1].weaponObject
+      value: 
+      objectReference: {fileID: 152678, guid: 342ed92d52a9f164184bb73e5359a61a, type: 2}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[2].weaponObject
+      value: 
+      objectReference: {fileID: 172836, guid: 2a0d0242de569bc4c828488a3c2d7289, type: 2}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[3].weaponObject
+      value: 
+      objectReference: {fileID: 121122, guid: 9374b655d1f8f1043aa91e26bb924b04, type: 2}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[4].weaponObject
+      value: 
+      objectReference: {fileID: 111632, guid: 04c767f178990f246a557022cc6df369, type: 2}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[5].weaponObject
+      value: 
+      objectReference: {fileID: 125052, guid: ceb92e2e51c84d243b74b5ae77ae7a26, type: 2}
+    - target: {fileID: 0}
+      propertyPath: weapons.Array.data[2].effect
+      value: 
+      objectReference: {fileID: 11400000, guid: 4a1edb0b568d40d4ababcaa837cf7f82,
+        type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 170972}
+  m_IsPrefabParent: 1

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &179982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 470142}
+  - 114: {fileID: 11468724}
+  m_Layer: 0
+  m_Name: HUD Interface 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &470142
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.12966096, y: .67199862, z: 7.32384872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11468724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87121d2c90da3fd4baa27b9562b21e9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
+  manaBar: {fileID: 0}
+  expBar: {fileID: 0}
+  elementDisplay: {fileID: 0}
+  abilityCooldown: {fileID: 0}
+  potionDisplay: {fileID: 0}
+  potionCount: {fileID: 0}
+  weaponDisplay: {fileID: 0}
+  bossHealthBar: {fileID: 0}
+  bossHealthFrame: {fileID: 0}
+  messageWindow: {fileID: 0}
+  messageText: {fileID: 0}
+  elements:
+  - {fileID: 21300000, guid: c022aff63651f204a8986a94b4eef1c9, type: 3}
+  - {fileID: 21300000, guid: 147d4d5d45e154b48aa1d2650e397ea0, type: 3}
+  - {fileID: 21300000, guid: b974090421e09bb4591e4e8301a22ab3, type: 3}
+  - {fileID: 21300000, guid: 79285817c09475242956a6174dac11b4, type: 3}
+  - {fileID: 21300000, guid: ef3d35fd9017f894b8eb85f068b587fe, type: 3}
+  - {fileID: 21300000, guid: 1fbf2eb2f91f84c4684b73859a982d7c, type: 3}
+  emptyIcon: {fileID: 0}
+  itemObj:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  lootWindow: {fileID: 0}
+  chest: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 179982}
+  m_IsPrefabParent: 1

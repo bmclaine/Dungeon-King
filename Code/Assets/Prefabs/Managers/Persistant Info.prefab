@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &168074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 407380}
+  - 114: {fileID: 11487284}
+  m_Layer: 0
+  m_Name: Persistant Info
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &407380
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168074}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -553.5, y: -197.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11487284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 099da7445cb1dc240a43ed6f64a5376b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultLevelName: TutorialLevel
+  characterImages:
+  - {fileID: 21300000, guid: 04218701435a7ef49ac9a944c00a4507, type: 3}
+  - {fileID: 21300000, guid: f16d6a9b4bb4bdd46bcaa4bd64f07544, type: 3}
+  - {fileID: 21300000, guid: 074ecdd9f9674f047b2bf7ba8be6cd97, type: 3}
+  - {fileID: 21300000, guid: 29edac14a417dc149bf11793aa870ed7, type: 3}
+  enemyInfo:
+  - {fileID: 11400000, guid: 85bb364150eb678439c9ebb4084df398, type: 2}
+  - {fileID: 11400000, guid: 7d9ae46e627dc9c46a7927d188066240, type: 2}
+  - {fileID: 11400000, guid: 225aea4793ea9f94e92de09fcd10c1ae, type: 2}
+  - {fileID: 11400000, guid: 7b9e2d21983f22f42bcb992b74dafbbf, type: 2}
+  - {fileID: 11400000, guid: 77867309c1bb37e44befccec4376451b, type: 2}
+  - {fileID: 11400000, guid: 1cd523426642d26489fbc9860d72b4c8, type: 2}
+  - {fileID: 11400000, guid: 539967ec1d9732d47ba810169fc3641d, type: 2}
+  - {fileID: 11400000, guid: 2f2f351a1a3364443927a75c15093d24, type: 2}
+  - {fileID: 11400000, guid: 65d3cc3de5c43d947999a0e68a33a347, type: 2}
+  - {fileID: 11400000, guid: 2450165d5d7b28b46a1370ef6d394483, type: 2}
+  - {fileID: 11400000, guid: 1d2ce0b1b0d529f469c1f791abf57154, type: 2}
+  - {fileID: 11400000, guid: 1bc48394252f6154fafcda1d1e04f1a4, type: 2}
+  - {fileID: 11400000, guid: 853fd627e0fb06c4b87cc8a058701137, type: 2}
+  enemyStatProgression:
+  - {fileID: 11400000, guid: ef9c0f9b6d4138440a96d6b52d4b69ad, type: 2}
+  - {fileID: 11400000, guid: 56ff172d35ccfc740b83a6f90b724317, type: 2}
+  - {fileID: 11400000, guid: 1e879310f46fef840a58a5998208f7eb, type: 2}
+  - {fileID: 11400000, guid: 658790676ab2aa141b99b1ef9ea81143, type: 2}
+  - {fileID: 11400000, guid: 39af0f105420b204c80b79963ab33b6a, type: 2}
+  - {fileID: 11400000, guid: a1c95ad7274ba714d8f6dd4d7f29234f, type: 2}
+  - {fileID: 11400000, guid: 5997ed39309eade459921ec0520b045b, type: 2}
+  - {fileID: 11400000, guid: 7c4214764e4f80f459fe2d65267304d8, type: 2}
+  - {fileID: 11400000, guid: 15cf529995e22344fb249c852fd9ec1f, type: 2}
+  - {fileID: 11400000, guid: e1f081fc9170045429633148d0642753, type: 2}
+  - {fileID: 11400000, guid: 16244eb85fa9eaa4680d5f86738b1c32, type: 2}
+  - {fileID: 11400000, guid: 7e10aa0b846e4c24b944806ca3d00002, type: 2}
+  - {fileID: 11400000, guid: db295914da39b274fa3e7f70313747ea, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: playerInfo.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: characterImages.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playerStatProgression.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: defaultLevelName
+      value: TutorialLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: characterImages.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 29edac14a417dc149bf11793aa870ed7,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: characterImages.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 04218701435a7ef49ac9a944c00a4507,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: characterImages.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: f16d6a9b4bb4bdd46bcaa4bd64f07544,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: characterImages.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 074ecdd9f9674f047b2bf7ba8be6cd97,
+        type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 168074}
+  m_IsPrefabParent: 1

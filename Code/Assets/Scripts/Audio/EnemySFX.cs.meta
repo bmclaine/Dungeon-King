@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8f34ee13c25ee7747a409b02949809dd
+timeCreated: 1442960904
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - walk: {instanceID: 0}
+  - projectile: {instanceID: 0}
+  - die: {instanceID: 0}
+  - damage: {instanceID: 0}
+  - melee: {instanceID: 0}
+  - hit: {fileID: 8300000, guid: 57c4cb937e835934d832c7d85ec82662, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

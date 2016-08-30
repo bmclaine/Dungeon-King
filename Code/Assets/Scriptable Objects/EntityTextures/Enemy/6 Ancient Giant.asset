@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7492835ed795eb49a253ddda09c6d03, type: 3}
+  m_Name: 6 Ancient Giant
+  m_EditorClassIdentifier: 
+  textures:
+  - {fileID: 2800000, guid: 53ce8bc04b109a64796bf62055269d0f, type: 3}
+  - {fileID: 2800000, guid: 53ce8bc04b109a64796bf62055269d0f, type: 3}
+  - {fileID: 2800000, guid: a53d257ab85168743b3eee1de2f08ed3, type: 3}
+  - {fileID: 2800000, guid: 83121b05210b7a74ca646bae2105753b, type: 3}
+  - {fileID: 2800000, guid: df27edf6a08abdf47b5c613e2d438d14, type: 3}
+  - {fileID: 2800000, guid: 7ca73053de5f6b046816eeb3ce58c0e1, type: 3}

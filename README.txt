@@ -1,0 +1,2 @@
+This project is special to me as I jumped into with one other person having very little knowledge of the Unity Engine or how 3D games were made.
+Despite those shortcomings, we were able to pull off this game in 2 months time using SCRUM developement techniques.

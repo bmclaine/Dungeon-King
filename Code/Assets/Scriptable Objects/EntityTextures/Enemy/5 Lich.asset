@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7492835ed795eb49a253ddda09c6d03, type: 3}
+  m_Name: 5 Lich
+  m_EditorClassIdentifier: 
+  textures:
+  - {fileID: 2800000, guid: 9ae684303b62d6c4085521cbe81cc559, type: 3}
+  - {fileID: 2800000, guid: 9ae684303b62d6c4085521cbe81cc559, type: 3}
+  - {fileID: 2800000, guid: 692deff6f0de94b4286bfb293baa9f34, type: 3}
+  - {fileID: 2800000, guid: 01c567af72b969a4f901a0b74bc832b0, type: 3}
+  - {fileID: 2800000, guid: a963a68cece91f543a5e8b834e775637, type: 3}
+  - {fileID: 2800000, guid: 33b602b5999951545b41109ca15a51fb, type: 3}

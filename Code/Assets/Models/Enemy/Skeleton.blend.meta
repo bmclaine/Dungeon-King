@@ -1,0 +1,826 @@
+fileFormatVersion: 2
+guid: a4cc100f06581744e93072d57c2f1546
+timeCreated: 1439614137
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Controller
+    100004: foot_L
+    100006: foot_R
+    100008: forearm_L
+    100010: forearm_R
+    100012: hand_L
+    100014: hand_R
+    100016: head
+    100018: hips
+    100020: neck
+    100022: shield
+    100024: shin_L
+    100026: shin_R
+    100028: //RootNode
+    100030: skeleton-fire
+    100032: spine
+    100034: sword
+    100036: thigh_L
+    100038: thigh_R
+    100040: upperarm_L
+    100042: upperarm_R
+    400000: Armature
+    400002: Controller
+    400004: foot_L
+    400006: foot_R
+    400008: forearm_L
+    400010: forearm_R
+    400012: hand_L
+    400014: hand_R
+    400016: head
+    400018: hips
+    400020: neck
+    400022: shield
+    400024: shin_L
+    400026: shin_R
+    400028: //RootNode
+    400030: skeleton-fire
+    400032: spine
+    400034: sword
+    400036: thigh_L
+    400038: thigh_R
+    400040: upperarm_L
+    400042: upperarm_R
+    4300000: skeleton-fire
+    7400000: Default Take
+    7400002: Skeleton_Attack_1
+    7400004: Skeleton_Attack_2
+    7400006: Skeleton_Attack_3
+    7400008: Skeleton_Block
+    7400010: Skeleton_Damage
+    7400012: Skeleton_Die
+    7400014: Skeleton_Idle
+    7400016: Skeleton_Knockback
+    7400018: Skeleton Run
+    9500000: //RootNode
+    13700000: skeleton-fire
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L/shield
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: skeleton-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton_Attack_1
+      takeName: Skeleton_Attack_1
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L/shield
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: skeleton-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton_Attack_2
+      takeName: Skeleton_Attack_2
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L/shield
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: skeleton-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton_Attack_3
+      takeName: Skeleton_Attack_3
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L/shield
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: skeleton-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton_Block
+      takeName: Skeleton_Block
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L/shield
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: skeleton-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton_Damage
+      takeName: Skeleton_Damage
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L/shield
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: skeleton-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton_Die
+      takeName: Skeleton_Die
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L/shield
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: skeleton-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton_Idle
+      takeName: Skeleton_Idle
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L/shield
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: skeleton-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton_Knockback
+      takeName: Skeleton_Knockback
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L/shield
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: skeleton-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skeleton Run
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/spine
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck
+        weight: 1
+      - path: Armature/Controller/hips/spine/neck/head
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_L/forearm_L/hand_L/shield
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/spine/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: skeleton-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .649999976
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Controller
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

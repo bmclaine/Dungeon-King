@@ -1,0 +1,657 @@
+fileFormatVersion: 2
+guid: 989b5dc93a6da8a4195e0ae8c2a0d66b
+timeCreated: 1441779824
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone
+    100004: chest
+    100006: forearm_L
+    100008: forearm_R
+    100010: head
+    100012: hips
+    100014: shin_L
+    100016: shin_R
+    100018: spine
+    100020: thigh_L
+    100022: thigh_R
+    100024: upperarm_L
+    100026: upperarm_R
+    100028: weapon
+    100030: //RootNode
+    100032: yeti_hr-fire
+    100034: controller
+    400000: Armature
+    400002: Bone
+    400004: chest
+    400006: forearm_L
+    400008: forearm_R
+    400010: head
+    400012: hips
+    400014: shin_L
+    400016: shin_R
+    400018: spine
+    400020: thigh_L
+    400022: thigh_R
+    400024: upperarm_L
+    400026: upperarm_R
+    400028: weapon
+    400030: //RootNode
+    400032: yeti_hr-fire
+    400034: controller
+    4300000: yeti_hr-fire
+    7400000: Default Take
+    7400002: Yeit_Idle
+    7400004: Yeti_Damage
+    7400006: Yeti_Death
+    7400008: Yeti_Melee_1
+    7400010: Yeti_Melee_2
+    7400012: Yeti_Melee_3
+    7400014: Yeti_Pursue
+    7400016: Yeti_Shield
+    9500000: //RootNode
+    13700000: yeti_hr-fire
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/weapon
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: yeti_hr-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Yeit_Idle
+      takeName: Yeit_Idle
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/weapon
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: yeti_hr-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Yeti_Damage
+      takeName: Yeti_Damage
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/weapon
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: yeti_hr-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Yeti_Death
+      takeName: Yeti_Death
+      firstFrame: 0
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/weapon
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: yeti_hr-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Yeti_Melee_1
+      takeName: Yeti_Melee_1
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/weapon
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: yeti_hr-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Yeti_Melee_2
+      takeName: Yeti_Melee_2
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/weapon
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: yeti_hr-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Yeti_Melee_3
+      takeName: Yeti_Melee_3
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/weapon
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: yeti_hr-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Yeti_Pursue
+      takeName: Yeti_Pursue
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/weapon
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: yeti_hr-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Yeti_Shield
+      takeName: Yeti_Shield
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/weapon
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: yeti_hr-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: controller
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

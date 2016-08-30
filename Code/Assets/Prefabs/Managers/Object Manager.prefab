@@ -1,0 +1,249 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &107830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 466262}
+  - 114: {fileID: 11485072}
+  m_Layer: 0
+  m_Name: Object Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &466262
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -553.236084, y: -195.137817, z: .0693359375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11485072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2683f651a2a08bb48b54f6d99560da34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soulObject: {fileID: 159764, guid: 334cfa6ca3c0e114eba86588748f6f47, type: 2}
+  lootBagObject: {fileID: 118206, guid: cb7dcb8d1842896419a99f57875e5957, type: 2}
+  playerExpGainObject: {fileID: 166110, guid: a2e5f995babfd964084169efe8606a4e, type: 2}
+  playerHitObject: {fileID: 0}
+  enemyHitObject: {fileID: 145774, guid: 2fad20e02c5210f429f24fc0bf8a7f3b, type: 2}
+  playerSpawnPosition: {fileID: 0}
+  playerObjects:
+  - {fileID: 118782, guid: fa961b5e65653b744a2ee9f35ffe0b00, type: 2}
+  - {fileID: 156330, guid: 2e41d3d7f7a1eff4e8aa1d9c3c09416b, type: 2}
+  - {fileID: 159242, guid: 565d4d8f0d0bec24aa4334ed0100c4b0, type: 2}
+  projectiles:
+  - {fileID: 137802, guid: 7100b526602196342863870322df7abe, type: 2}
+  - {fileID: 162766, guid: 298ec90db3d16cc41a51d9c97b1c2dbb, type: 2}
+  - {fileID: 197826, guid: add19deac798ae341b42822682a09c5b, type: 2}
+  - {fileID: 186428, guid: 3cf5123ffc683b147b6dc6dca2995eb1, type: 2}
+  - {fileID: 129254, guid: 037ca023739530749a7792a23c9b8fc5, type: 2}
+  - {fileID: 102374, guid: ea3b07eea32f2a446a5c1ff2f04bee28, type: 2}
+  explosions:
+  - {fileID: 104818, guid: 369beac8c9ed6424da18e06d376061eb, type: 2}
+  - {fileID: 104818, guid: 369beac8c9ed6424da18e06d376061eb, type: 2}
+  - {fileID: 194020, guid: 77e56b205bbeb5e47a297cb83e7f4f6b, type: 2}
+  - {fileID: 146848, guid: 8517e59278583ac4989c51dde4aaf37e, type: 2}
+  - {fileID: 150672, guid: 2254c2461b259964284f7168c2cd6337, type: 2}
+  - {fileID: 198706, guid: 5ccbb58cafc10cc47a3c5d4967a0a2ef, type: 2}
+  playerTextures:
+  - {fileID: 11400000, guid: 4548739507c10c744abe1dc4fc677997, type: 2}
+  - {fileID: 11400000, guid: 93deed91d1970654db4a2c1550fe1759, type: 2}
+  - {fileID: 11400000, guid: cb64ff6d4d9f0eb40a3766a732d18e7c, type: 2}
+  enemyTextures:
+  - {fileID: 11400000, guid: 8fbe46a8390c9a440b4fdc9c98bf3fbb, type: 2}
+  - {fileID: 11400000, guid: 53bcd639f32e75f428e5ca73dbd87259, type: 2}
+  - {fileID: 11400000, guid: a9730c321ce170a4f8c110c0fa70c252, type: 2}
+  - {fileID: 11400000, guid: be7a5e05799a97246bea9adde29f30e7, type: 2}
+  - {fileID: 11400000, guid: a45c2e78045f5f840bbb8fbee3eed337, type: 2}
+  - {fileID: 11400000, guid: ea11cdcbb46874242addf82e38f29521, type: 2}
+  - {fileID: 11400000, guid: 31a34874acc86c240a44d03e571c6da9, type: 2}
+  - {fileID: 11400000, guid: 2a213790ec3270f499f6738b0e4b3718, type: 2}
+  - {fileID: 11400000, guid: d55ddbc88bf39bc45a6f6182dd12f6fd, type: 2}
+  - {fileID: 11400000, guid: eab86c35137ef2f459afa4381461feab, type: 2}
+  - {fileID: 11400000, guid: 29990c2fc450ac843b963be1da7db073, type: 2}
+  - {fileID: 11400000, guid: afbf198b0bc278843842d309d86597e2, type: 2}
+  leapAbilityObjects:
+  - {fileID: 137600, guid: 4bb1891cc2a512f42b50ca5b9612f400, type: 2}
+  - {fileID: 137600, guid: 4bb1891cc2a512f42b50ca5b9612f400, type: 2}
+  - {fileID: 118004, guid: dc440ac6984453a4bbba8c380e700790, type: 2}
+  - {fileID: 168794, guid: d9af682275cb14448ac50ac2261f99c9, type: 2}
+  - {fileID: 177782, guid: da3cfacda40521f42a6f175c9421a066, type: 2}
+  - {fileID: 102176, guid: a3580dd7a6ba0424fa62e88c7ace0965, type: 2}
+  goeTelelportObject: {fileID: 100002, guid: 75369bb81385f4904842bf20a51c14a2, type: 2}
+  goeDieEffectObject: {fileID: 191780, guid: b5042b92c13264646abd6df39cf9c5fe, type: 2}
+  grimReaper: {fileID: 184044, guid: d80b354db149d664996ab2671537861c, type: 2}
+  battleMusic: {fileID: 8300000, guid: f7f9e978bce2a0b4d8328656fefa7f59, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: projectiles.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playerObjects.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: enemyProjectiles.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playerProjectiles.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: deathKnightTextures.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playerProjectiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 177692, guid: 568e0ddd7b5c1c04eaab03c7113fdaf5, type: 2}
+    - target: {fileID: 0}
+      propertyPath: playerProjectiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 160646, guid: 1843860c1553c5241b135ba128bbffa7, type: 2}
+    - target: {fileID: 0}
+      propertyPath: playerProjectiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 129274, guid: f52b5f94b4d3f0b439f7c35ef27c2467, type: 2}
+    - target: {fileID: 0}
+      propertyPath: playerProjectiles.Array.data[3]
+      value: 
+      objectReference: {fileID: 177692, guid: 96f1eb8d04d9e7f4a84bf01e36b94cab, type: 2}
+    - target: {fileID: 0}
+      propertyPath: playerProjectiles.Array.data[4]
+      value: 
+      objectReference: {fileID: 177732, guid: da7d0ad5362ac344ebe76937b233d47b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: playerProjectiles.Array.data[5]
+      value: 
+      objectReference: {fileID: 177732, guid: 4552b3192ff04be41a1d025f1b779962, type: 2}
+    - target: {fileID: 0}
+      propertyPath: enemyProjectiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 177692, guid: 568e0ddd7b5c1c04eaab03c7113fdaf5, type: 2}
+    - target: {fileID: 0}
+      propertyPath: enemyProjectiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 160646, guid: 1843860c1553c5241b135ba128bbffa7, type: 2}
+    - target: {fileID: 0}
+      propertyPath: enemyProjectiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 129274, guid: f52b5f94b4d3f0b439f7c35ef27c2467, type: 2}
+    - target: {fileID: 0}
+      propertyPath: enemyProjectiles.Array.data[3]
+      value: 
+      objectReference: {fileID: 177692, guid: 96f1eb8d04d9e7f4a84bf01e36b94cab, type: 2}
+    - target: {fileID: 0}
+      propertyPath: enemyProjectiles.Array.data[4]
+      value: 
+      objectReference: {fileID: 177732, guid: da7d0ad5362ac344ebe76937b233d47b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: enemyProjectiles.Array.data[5]
+      value: 
+      objectReference: {fileID: 177732, guid: 4552b3192ff04be41a1d025f1b779962, type: 2}
+    - target: {fileID: 0}
+      propertyPath: playerObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 118782, guid: fa961b5e65653b744a2ee9f35ffe0b00, type: 2}
+    - target: {fileID: 0}
+      propertyPath: playerObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 156330, guid: 2e41d3d7f7a1eff4e8aa1d9c3c09416b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: playerObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 100000, guid: 114af20197d8f794eaa34378610fe545, type: 3}
+    - target: {fileID: 0}
+      propertyPath: deathKnightTextures.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 899bc7ff5f7ce424586577520eea9608, type: 3}
+    - target: {fileID: 0}
+      propertyPath: deathKnightTextures.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: 3a0b6006224ad474ba5323643de35cfa, type: 3}
+    - target: {fileID: 0}
+      propertyPath: deathKnightTextures.Array.data[2]
+      value: 
+      objectReference: {fileID: 2800000, guid: f2d3f68c490d4824dac6f34487e6d149, type: 3}
+    - target: {fileID: 0}
+      propertyPath: deathKnightTextures.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: e887d635a83ef054a8b9d088332dd654, type: 3}
+    - target: {fileID: 0}
+      propertyPath: deathKnightTextures.Array.data[4]
+      value: 
+      objectReference: {fileID: 2800000, guid: e791b436e16f8e1428c0e820995d8a4b, type: 3}
+    - target: {fileID: 0}
+      propertyPath: deathKnightTextures.Array.data[5]
+      value: 
+      objectReference: {fileID: 2800000, guid: f8d1fc80d4de0264c83d26f62729c2ec, type: 3}
+    - target: {fileID: 0}
+      propertyPath: battleMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: f7f9e978bce2a0b4d8328656fefa7f59, type: 3}
+    - target: {fileID: 0}
+      propertyPath: archangelTextures.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: 1110bb71febd6d042ab2a86dc65b4865, type: 3}
+    - target: {fileID: 0}
+      propertyPath: soulObject
+      value: 
+      objectReference: {fileID: 159764, guid: 334cfa6ca3c0e114eba86588748f6f47, type: 2}
+    - target: {fileID: 0}
+      propertyPath: projectiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 137802, guid: 7100b526602196342863870322df7abe, type: 2}
+    - target: {fileID: 0}
+      propertyPath: projectiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 162766, guid: 298ec90db3d16cc41a51d9c97b1c2dbb, type: 2}
+    - target: {fileID: 0}
+      propertyPath: projectiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 197826, guid: add19deac798ae341b42822682a09c5b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: projectiles.Array.data[3]
+      value: 
+      objectReference: {fileID: 186428, guid: 3cf5123ffc683b147b6dc6dca2995eb1, type: 2}
+    - target: {fileID: 0}
+      propertyPath: projectiles.Array.data[4]
+      value: 
+      objectReference: {fileID: 129254, guid: 037ca023739530749a7792a23c9b8fc5, type: 2}
+    - target: {fileID: 0}
+      propertyPath: projectiles.Array.data[5]
+      value: 
+      objectReference: {fileID: 102374, guid: ea3b07eea32f2a446a5c1ff2f04bee28, type: 2}
+    - target: {fileID: 0}
+      propertyPath: playerTextures.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 93deed91d1970654db4a2c1550fe1759,
+        type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 107830}
+  m_IsPrefabParent: 1

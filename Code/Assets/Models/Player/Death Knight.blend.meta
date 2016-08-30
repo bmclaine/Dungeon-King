@@ -1,0 +1,1084 @@
+fileFormatVersion: 2
+guid: 6a6ebe2952399ab40b7635d2884102b6
+timeCreated: 1442060216
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: chest
+    100006: cloak_1
+    100008: cloak_2
+    100010: cloak_3
+    100012: controller
+    100014: deathknight-dark
+    100016: forearm_L
+    100018: forearm_R
+    100020: hand_L
+    100022: hand_R
+    100024: head
+    100026: hips
+    100028: spine
+    100030: upperarm_L
+    100032: upperarm_R
+    400000: //RootNode
+    400002: Armature
+    400004: chest
+    400006: cloak_1
+    400008: cloak_2
+    400010: cloak_3
+    400012: controller
+    400014: deathknight-dark
+    400016: forearm_L
+    400018: forearm_R
+    400020: hand_L
+    400022: hand_R
+    400024: head
+    400026: hips
+    400028: spine
+    400030: upperarm_L
+    400032: upperarm_R
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: deathknight-dark
+    7400000: Default Take
+    7400002: Death_Knight_Damage
+    7400004: Death_Knight_Die
+    7400006: Death_Knight_Fly
+    7400008: Death_Knight_Idle
+    7400010: Death_Knight_Knockback
+    7400012: Death_Knight_Stun
+    7400014: Death_Knight_Ability_Fire
+    7400016: Death_Knight_Ability_Wind
+    7400018: Death_Knight_Projectile
+    7400020: Death_Knight_Soul_Pulse
+    7400022: Death_Knight_Ability_Dark
+    7400024: Death_Knight_Ability_Light
+    7400026: Death_Knight_Melee_1
+    7400028: Death_Knight_Melee_2
+    7400030: Death_Knight_Melee_3
+    9500000: //RootNode
+    13700000: deathknight-dark
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/cloak_1
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2/cloak_3
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: deathknight-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_Knight_Ability_Dark
+      takeName: Death_Knight_Ability_Dark
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/cloak_1
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2/cloak_3
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: deathknight-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_Knight_Ability_Fire
+      takeName: Death_Knight_Ability_Fire
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/cloak_1
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2/cloak_3
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: deathknight-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_Knight_Ability_Light
+      takeName: Death_Knight_Ability_Light
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/cloak_1
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2/cloak_3
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: deathknight-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_Knight_Ability_Wind
+      takeName: Death_Knight_Ability_Wind
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/cloak_1
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2/cloak_3
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: deathknight-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_Knight_Damage
+      takeName: Death_Knight_Damage
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/cloak_1
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2/cloak_3
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: deathknight-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_Knight_Die
+      takeName: Death_Knight_Die
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/cloak_1
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2/cloak_3
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: deathknight-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_Knight_Fly
+      takeName: Death_Knight_Fly
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/cloak_1
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2/cloak_3
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: deathknight-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_Knight_Idle
+      takeName: Death_Knight_Idle
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/cloak_1
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2/cloak_3
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: deathknight-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_Knight_Knockback
+      takeName: Death_Knight_Knockback
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/cloak_1
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2/cloak_3
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: deathknight-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_Knight_Melee_1
+      takeName: Death_Knight_Melee_1
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/cloak_1
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2/cloak_3
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: deathknight-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_Knight_Melee_2
+      takeName: Death_Knight_Melee_2
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/cloak_1
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2/cloak_3
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: deathknight-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_Knight_Melee_3
+      takeName: Death_Knight_Melee_3
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/cloak_1
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2/cloak_3
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: deathknight-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_Knight_Projectile
+      takeName: Death_Knight_Projectile
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/cloak_1
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2/cloak_3
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: deathknight-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_Knight_Soul_Pulse
+      takeName: Death_Knight_Soul_Pulse
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/cloak_1
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2/cloak_3
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: deathknight-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_Knight_Stun
+      takeName: Death_Knight_Stun
+      firstFrame: 0
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/cloak_1
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2
+        weight: 1
+      - path: Armature/controller/hips/cloak_1/cloak_2/cloak_3
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: deathknight-dark
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: controller
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

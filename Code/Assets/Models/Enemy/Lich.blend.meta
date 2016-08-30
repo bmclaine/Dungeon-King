@@ -1,0 +1,118 @@
+fileFormatVersion: 2
+guid: a0b42d66729dff4448e582298f2c9781
+timeCreated: 1441770673
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: cloak_1
+    100004: cloak_2
+    100006: controller
+    100008: forearm_L
+    100010: forearm_R
+    100012: hand_L
+    100014: hand_R
+    100016: head
+    100018: hips
+    100020: //RootNode
+    100022: lich_hr-light
+    100024: spine
+    100026: staff
+    100028: tasil_1
+    100030: tasil_2
+    100032: tasil_3
+    100034: upperarm_L
+    100036: upperarm_R
+    400000: Armature
+    400002: cloak_1
+    400004: cloak_2
+    400006: controller
+    400008: forearm_L
+    400010: forearm_R
+    400012: hand_L
+    400014: hand_R
+    400016: head
+    400018: hips
+    400020: //RootNode
+    400022: lich_hr-light
+    400024: spine
+    400026: staff
+    400028: tasil_1
+    400030: tasil_2
+    400032: tasil_3
+    400034: upperarm_L
+    400036: upperarm_R
+    4300000: lich_hr-light
+    7400000: Default Take
+    7400002: Lich_Damage
+    7400004: Lich_Death
+    7400006: Lich_Fade
+    7400008: Lich_Idle
+    7400010: Lich_Melee
+    7400012: Lich_Spawn
+    7400014: Lich_Wander
+    9500000: //RootNode
+    13700000: lich_hr-light
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .75
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: controller
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

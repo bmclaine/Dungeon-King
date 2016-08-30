@@ -1,0 +1,522 @@
+fileFormatVersion: 2
+guid: 78f6b45de4c54da479922373961fcbef
+timeCreated: 1441998006
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: arm_L
+    100002: arm_R
+    100004: Armature
+    100006: chest
+    100008: controller
+    100010: foot_L
+    100012: foot_R
+    100014: head
+    100016: hips
+    100018: //RootNode
+    100020: penguinfighter-light
+    100022: thigh_L
+    100024: thigh_R
+    400000: arm_L
+    400002: arm_R
+    400004: Armature
+    400006: chest
+    400008: controller
+    400010: foot_L
+    400012: foot_R
+    400014: head
+    400016: hips
+    400018: //RootNode
+    400020: penguinfighter-light
+    400022: thigh_L
+    400024: thigh_R
+    4300000: penguinfighter-light
+    7400000: Default Take
+    7400002: PKnight_Damage
+    7400004: PKnight_Die
+    7400006: PKnight_Idle
+    7400008: PKnight_Melee_1
+    7400010: PKnight_Melee_2
+    7400012: PKnight_Melee_3
+    7400014: PKnight_Pursuit
+    9500000: //RootNode
+    13700000: penguinfighter-light
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/chest
+        weight: 1
+      - path: Armature/controller/hips/chest/arm_L
+        weight: 1
+      - path: Armature/controller/hips/chest/arm_R
+        weight: 1
+      - path: Armature/controller/hips/chest/head
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/foot_R
+        weight: 1
+      - path: penguinfighter-light
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PKnight_Damage
+      takeName: PKnight_Damage
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/chest
+        weight: 1
+      - path: Armature/controller/hips/chest/arm_L
+        weight: 1
+      - path: Armature/controller/hips/chest/arm_R
+        weight: 1
+      - path: Armature/controller/hips/chest/head
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/foot_R
+        weight: 1
+      - path: penguinfighter-light
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PKnight_Die
+      takeName: PKnight_Die
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/chest
+        weight: 1
+      - path: Armature/controller/hips/chest/arm_L
+        weight: 1
+      - path: Armature/controller/hips/chest/arm_R
+        weight: 1
+      - path: Armature/controller/hips/chest/head
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/foot_R
+        weight: 1
+      - path: penguinfighter-light
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PKnight_Idle
+      takeName: PKnight_Idle
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/chest
+        weight: 1
+      - path: Armature/controller/hips/chest/arm_L
+        weight: 1
+      - path: Armature/controller/hips/chest/arm_R
+        weight: 1
+      - path: Armature/controller/hips/chest/head
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/foot_R
+        weight: 1
+      - path: penguinfighter-light
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PKnight_Melee_1
+      takeName: PKnight_Melee_1
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/chest
+        weight: 1
+      - path: Armature/controller/hips/chest/arm_L
+        weight: 1
+      - path: Armature/controller/hips/chest/arm_R
+        weight: 1
+      - path: Armature/controller/hips/chest/head
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/foot_R
+        weight: 1
+      - path: penguinfighter-light
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PKnight_Melee_2
+      takeName: PKnight_Melee_2
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/chest
+        weight: 1
+      - path: Armature/controller/hips/chest/arm_L
+        weight: 1
+      - path: Armature/controller/hips/chest/arm_R
+        weight: 1
+      - path: Armature/controller/hips/chest/head
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/foot_R
+        weight: 1
+      - path: penguinfighter-light
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PKnight_Melee_3
+      takeName: PKnight_Melee_3
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/chest
+        weight: 1
+      - path: Armature/controller/hips/chest/arm_L
+        weight: 1
+      - path: Armature/controller/hips/chest/arm_R
+        weight: 1
+      - path: Armature/controller/hips/chest/head
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/foot_R
+        weight: 1
+      - path: penguinfighter-light
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PKnight_Pursuit
+      takeName: PKnight_Pursuit
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/chest
+        weight: 1
+      - path: Armature/controller/hips/chest/arm_L
+        weight: 1
+      - path: Armature/controller/hips/chest/arm_R
+        weight: 1
+      - path: Armature/controller/hips/chest/head
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/foot_R
+        weight: 1
+      - path: penguinfighter-light
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .699999988
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: controller
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

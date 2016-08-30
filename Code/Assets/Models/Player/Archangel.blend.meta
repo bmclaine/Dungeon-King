@@ -1,0 +1,2347 @@
+fileFormatVersion: 2
+guid: 94a226e8375dfed43be524c5f49bfbd9
+timeCreated: 1440443243
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: archangel-light
+    100004: Armature
+    100006: chest
+    100008: cloth1
+    100010: cloth2
+    100012: cloth3
+    100014: Controller
+    100016: foot_L
+    100018: foot_R
+    100020: forearm_L
+    100022: forearm_R
+    100024: hand_L
+    100026: hand_R
+    100028: head
+    100030: hips
+    100032: index1_L
+    100034: index1_R
+    100036: index2_L
+    100038: index2_R
+    100040: middle1_L
+    100042: middle1_R
+    100044: middle2_L
+    100046: middle2_R
+    100048: pinkey1_L
+    100050: pinkey1_R
+    100052: pinkey2_L
+    100054: pinkey2_R
+    100056: ring1_L
+    100058: ring1_R
+    100060: ring2_L
+    100062: ring2_R
+    100064: shin_L
+    100066: shin_R
+    100068: sword
+    100070: thigh_L
+    100072: thigh_R
+    100074: thumb1_L
+    100076: thumb1_R
+    100078: thumb2_L
+    100080: thumb2_R
+    100082: upperarm_L
+    100084: upperarm_R
+    100086: Weapon
+    400000: //RootNode
+    400002: archangel-light
+    400004: Armature
+    400006: chest
+    400008: cloth1
+    400010: cloth2
+    400012: cloth3
+    400014: Controller
+    400016: foot_L
+    400018: foot_R
+    400020: forearm_L
+    400022: forearm_R
+    400024: hand_L
+    400026: hand_R
+    400028: head
+    400030: hips
+    400032: index1_L
+    400034: index1_R
+    400036: index2_L
+    400038: index2_R
+    400040: middle1_L
+    400042: middle1_R
+    400044: middle2_L
+    400046: middle2_R
+    400048: pinkey1_L
+    400050: pinkey1_R
+    400052: pinkey2_L
+    400054: pinkey2_R
+    400056: ring1_L
+    400058: ring1_R
+    400060: ring2_L
+    400062: ring2_R
+    400064: shin_L
+    400066: shin_R
+    400068: sword
+    400070: thigh_L
+    400072: thigh_R
+    400074: thumb1_L
+    400076: thumb1_R
+    400078: thumb2_L
+    400080: thumb2_R
+    400082: upperarm_L
+    400084: upperarm_R
+    400086: Weapon
+    4300000: Weapon
+    4300002: archangel-light
+    7400000: Default Take
+    7400002: AAngel_Ability_Dark
+    7400004: AAngel_Ability_fire
+    7400006: AAngel_Ability_Light
+    7400008: AAngel_Ability_Water
+    7400010: AAngel_Ability_Wind
+    7400012: AAngel_Block
+    7400014: AAngel_Change_Element
+    7400016: AAngel_Damage
+    7400018: AAngel_Die
+    7400020: AAngel_Fall
+    7400022: AAngel_FlyForward
+    7400024: AAngel_Idle
+    7400026: AAngel_Knockback
+    7400028: AAngel_Melee_1
+    7400030: AAngel_Melee_2
+    7400032: AAngel_Melee_3
+    7400034: AAngel_Projectile
+    7400036: AAngel_Stun
+    9500000: //RootNode
+    13700000: archangel-light
+    13700002: Weapon
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Ability_Dark
+      takeName: AAngel_Ability_Dark
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Ability_fire
+      takeName: AAngel_Ability_fire
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Ability_Light
+      takeName: AAngel_Ability_Light
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Ability_Water
+      takeName: AAngel_Ability_Water
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Ability_Wind
+      takeName: AAngel_Ability_Wind
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Block
+      takeName: AAngel_Block
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Change_Element
+      takeName: AAngel_Change_Element
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Damage
+      takeName: AAngel_Damage
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Die
+      takeName: AAngel_Die
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Fall
+      takeName: AAngel_Fall
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_FlyForward
+      takeName: AAngel_FlyForward
+      firstFrame: 0
+      lastFrame: 58
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Idle
+      takeName: AAngel_Idle
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Knockback
+      takeName: AAngel_Knockback
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Melee_1
+      takeName: AAngel_Melee_1
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Melee_2
+      takeName: AAngel_Melee_2
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Melee_3
+      takeName: AAngel_Melee_3
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Projectile
+      takeName: AAngel_Projectile
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AAngel_Stun
+      takeName: AAngel_Stun
+      firstFrame: 0
+      lastFrame: 74
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: archangel-light
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Controller
+        weight: 1
+      - path: Armature/Controller/hips
+        weight: 1
+      - path: Armature/Controller/hips/chest
+        weight: 1
+      - path: Armature/Controller/hips/chest/head
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/index1_L/index2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/middle1_L/middle2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/pinkey1_L/pinkey2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/ring1_L/ring2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_L/forearm_L/hand_L/thumb1_L/thumb2_L
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/index1_R/index2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/middle1_R/middle2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/pinkey1_R/pinkey2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/ring1_R/ring2_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/sword
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R
+        weight: 1
+      - path: Armature/Controller/hips/chest/upperarm_R/forearm_R/hand_R/thumb1_R/thumb2_R
+        weight: 1
+      - path: Armature/Controller/hips/cloth1
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2
+        weight: 1
+      - path: Armature/Controller/hips/cloth1/cloth2/cloth3
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/Controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Controller
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

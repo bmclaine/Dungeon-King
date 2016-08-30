@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7492835ed795eb49a253ddda09c6d03, type: 3}
+  m_Name: Archangel
+  m_EditorClassIdentifier: 
+  textures:
+  - {fileID: 2800000, guid: 1110bb71febd6d042ab2a86dc65b4865, type: 3}
+  - {fileID: 2800000, guid: b8023e531bed88e4bb15d7d208184104, type: 3}
+  - {fileID: 2800000, guid: 7ce9261b6eee2724e8796987a795cce0, type: 3}
+  - {fileID: 2800000, guid: 4c122faa8c4ca6846aa0a944aa555b8e, type: 3}
+  - {fileID: 2800000, guid: 9e6b7999e2742c348b61b5fe8ea33eb6, type: 3}
+  - {fileID: 2800000, guid: f4764a3a8cd7836459d425bb489075bb, type: 3}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7baf2c3a8cc1014181dc7b024797b2f, type: 3}
+  m_Name: 4 Hellhound
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyInfo
+  name: Hellhound
+  health:
+    current: 575
+    max: 575
+    regen: 0
+  mana:
+    current: 0
+    max: 0
+    regen: 0
+  attack:
+    physical: 14
+    elemental: 13
+    critical: .100000001
+  defense:
+    physical: 8
+    elemental: 7
+    flinch: .25
+  moveSpeed: 5
+  exp: 30
+  modifiers:
+    speed: 1
+    attack:
+      physical: 0
+      elemental: 0
+      critical: 0
+    defense:
+      physical: 0
+      elemental: 0
+      flinch: 0

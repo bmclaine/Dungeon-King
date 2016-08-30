@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7492835ed795eb49a253ddda09c6d03, type: 3}
+  m_Name: 7 Yeti
+  m_EditorClassIdentifier: 
+  textures:
+  - {fileID: 2800000, guid: 74989678a4d154948835df78ee674da9, type: 3}
+  - {fileID: 2800000, guid: 2db339f0b4b20f042b40867c0e7302ad, type: 3}
+  - {fileID: 2800000, guid: 68a31ff2eae90d84ea7ab3a85b5c76b2, type: 3}
+  - {fileID: 2800000, guid: 68a31ff2eae90d84ea7ab3a85b5c76b2, type: 3}
+  - {fileID: 2800000, guid: 498793e90150f6142bd8b73670fb49a9, type: 3}
+  - {fileID: 2800000, guid: 22d315d0734ccba46b379a48fc4d6d2f, type: 3}

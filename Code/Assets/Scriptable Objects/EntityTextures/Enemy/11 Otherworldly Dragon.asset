@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7492835ed795eb49a253ddda09c6d03, type: 3}
+  m_Name: 11 Otherworldly Dragon
+  m_EditorClassIdentifier: 
+  textures:
+  - {fileID: 2800000, guid: 3335de86ea3c5d242ae581cf079e7134, type: 3}
+  - {fileID: 2800000, guid: a9eb702667080ae4493195f4c5d89695, type: 3}
+  - {fileID: 2800000, guid: c5a1ef36ee988dc49a89c26350f932e9, type: 3}
+  - {fileID: 2800000, guid: 0b24eb13081e41048a9b9678a6175ab2, type: 3}
+  - {fileID: 2800000, guid: ce2fa68bf91637f44b97d6645b57b2c9, type: 3}
+  - {fileID: 2800000, guid: fe52dc103ec6dbf4b864a163fe0929b6, type: 3}

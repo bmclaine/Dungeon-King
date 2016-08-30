@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: 7642e43034fad5f409dc1a5f22fb4b9a
+timeCreated: 1441980470
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: calf_b_L
+    100004: calf_b_R
+    100006: controller
+    100008: foot_b_L
+    100010: foot_b_R
+    100012: foot_f_L
+    100014: foot_f_R
+    100016: head
+    100018: //RootNode
+    100020: hellhound_hr-dark
+    100022: hips
+    100024: jaw
+    100026: neck
+    100028: shin_b_L
+    100030: shin_b_R
+    100032: shin_f_L
+    100034: shin_f_R
+    100036: spine
+    100038: tail1
+    100040: tail2
+    100042: tail3
+    100044: tail4
+    100046: tail5
+    100048: tail6
+    100050: thigh_b_L
+    100052: thigh_b_R
+    100054: thigh_f_L
+    100056: thigh_f_R
+    400000: Armature
+    400002: calf_b_L
+    400004: calf_b_R
+    400006: controller
+    400008: foot_b_L
+    400010: foot_b_R
+    400012: foot_f_L
+    400014: foot_f_R
+    400016: head
+    400018: //RootNode
+    400020: hellhound_hr-dark
+    400022: hips
+    400024: jaw
+    400026: neck
+    400028: shin_b_L
+    400030: shin_b_R
+    400032: shin_f_L
+    400034: shin_f_R
+    400036: spine
+    400038: tail1
+    400040: tail2
+    400042: tail3
+    400044: tail4
+    400046: tail5
+    400048: tail6
+    400050: thigh_b_L
+    400052: thigh_b_R
+    400054: thigh_f_L
+    400056: thigh_f_R
+    4300000: hellhound_hr-dark
+    7400000: Default Take
+    7400002: Hellhound_Breath
+    7400004: Hellhound_Damage
+    7400006: Hellhound_Death
+    7400008: Hellhound_Idle
+    7400010: Hellhound_Knockback
+    7400012: Hellhound_Projectile
+    7400014: Hellhound_Pursuit
+    9500000: //RootNode
+    13700000: hellhound_hr-dark
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: controller
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

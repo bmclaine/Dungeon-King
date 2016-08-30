@@ -1,0 +1,899 @@
+fileFormatVersion: 2
+guid: 114af20197d8f794eaa34378610fe545
+timeCreated: 1442059899
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: chest
+    100006: controller
+    100008: dragonknight-fire
+    100010: finger2_L
+    100012: finger_L
+    100014: foot_L
+    100016: foot_R
+    100018: forearm_L
+    100020: forearm_R
+    100022: hand_L
+    100024: hand_R
+    100026: head
+    100028: hips
+    100030: shin_L
+    100032: shin_R
+    100034: spine
+    100036: thigh_L
+    100038: thigh_R
+    100040: upperarm_L
+    100042: upperarm_R
+    400000: //RootNode
+    400002: Armature
+    400004: chest
+    400006: controller
+    400008: dragonknight-fire
+    400010: finger2_L
+    400012: finger_L
+    400014: foot_L
+    400016: foot_R
+    400018: forearm_L
+    400020: forearm_R
+    400022: hand_L
+    400024: hand_R
+    400026: head
+    400028: hips
+    400030: shin_L
+    400032: shin_R
+    400034: spine
+    400036: thigh_L
+    400038: thigh_R
+    400040: upperarm_L
+    400042: upperarm_R
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: dragonknight-fire
+    7400000: Default Take
+    7400002: Dragon_Slayer_Idle
+    7400004: Dragon_Slayer_Damage
+    7400006: Dragon_Slayer_Die
+    7400008: Dragon_Slayer_Run
+    7400010: Dragon_Slayer_Melee_1
+    7400012: Dragon_Slayer_Melee_2
+    7400014: Dragon_Slayer_Melee_3
+    7400016: Dragon_Slayer_Projectile
+    7400018: Dragon_Slayer_Knockback
+    7400020: Dragon_Slayer_Fire_Ability
+    9500000: //RootNode
+    13700000: dragonknight-fire
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L/finger2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: dragonknight-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dragon_Slayer_Damage
+      takeName: Dragon_Slayer_Damage
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L/finger2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: dragonknight-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dragon_Slayer_Die
+      takeName: Dragon_Slayer_Die
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L/finger2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: dragonknight-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dragon_Slayer_Fire_Ability
+      takeName: Dragon_Slayer_Fire_Ability
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L/finger2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: dragonknight-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dragon_Slayer_Idle
+      takeName: Dragon_Slayer_Idle
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L/finger2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: dragonknight-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dragon_Slayer_Knockback
+      takeName: Dragon_Slayer_Knockback
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L/finger2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: dragonknight-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dragon_Slayer_Melee_1
+      takeName: Dragon_Slayer_Melee_1
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L/finger2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: dragonknight-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dragon_Slayer_Melee_2
+      takeName: Dragon_Slayer_Melee_2
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L/finger2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: dragonknight-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dragon_Slayer_Melee_3
+      takeName: Dragon_Slayer_Melee_3
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L/finger2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: dragonknight-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dragon_Slayer_Projectile
+      takeName: Dragon_Slayer_Projectile
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L/finger2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: dragonknight-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dragon_Slayer_Run
+      takeName: Dragon_Slayer_Run
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/controller
+        weight: 1
+      - path: Armature/controller/hips
+        weight: 1
+      - path: Armature/controller/hips/spine
+        weight: 1
+      - path: Armature/controller/hips/spine/chest
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/head
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_L/forearm_L/hand_L/finger_L/finger2_L
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R
+        weight: 1
+      - path: Armature/controller/hips/spine/chest/upperarm_R/forearm_R/hand_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Armature/controller/hips/thigh_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R
+        weight: 1
+      - path: Armature/controller/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: dragonknight-fire
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: controller
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
